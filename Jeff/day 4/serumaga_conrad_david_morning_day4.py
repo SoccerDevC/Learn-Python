@@ -187,7 +187,12 @@ print(temp.ferenheit())
 # pay increamentation (Salary with employee information to new_salary) e.g from 850000 to 1000000
 
 
-# class Employee:
-#     def __init__(self, name, salary):
-#         self.name = name
-#         self.salary = salary
+class Employee:
+    def __init__(self, name, salary):
+        self._name = name
+        self._salary = salary
+    def new_salary(self):
+        print("Your new salary is {}".format(self._salary*1.15))
+
+Employee1 = Employee("Cono", 1000000)
+Employee1.new_salary()
