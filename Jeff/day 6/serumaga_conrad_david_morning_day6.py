@@ -120,3 +120,5 @@ def outer_decorator():
     print("This is outer decorator")
     
 outer_decorator()
+ # This will call the function and then it calls "inner" which prints this message first before executing
+ 
