@@ -87,3 +87,6 @@ for student, scores in student_scores.items():
     print(f"Student: {student}")
     for subject, score in scores.items():
         print(f"\t{subject}: {score}")
+cars={"toyota":"premio",
+      "number_plate":2323}
+print(cars)
